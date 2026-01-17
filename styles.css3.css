@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Encabezado */
+#encabezado {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Sección de proyectos */
+#proyectos {
+    padding: 20px;
+}
+
+#proyectos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.proyecto {
+    background-color: #ffffff;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+#pie-pagina {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+#pie-pagina a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    #encabezado {
+        padding: 20px 10px;
+    }
+
+    .proyecto {
+        margin: 10px;
+    }
+}
