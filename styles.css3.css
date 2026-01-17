@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+}
+
+#mision-vision {
+    padding: 30px;
+    background-color: #d09dd5;
+    text-align: center;
+}
+
+.mision, .vision {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #e5ff61;
+    border-radius: 8px;
+    background-color: hsla(0, 0%, 100%, 0.922);
+    max-width: 600px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.mision h3, .vision h3 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+
+/* Encabezado */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Proyectos */
+#proyectos {
+    padding: 20px;
+    background-color: #d8b780;
+}
+
+.proyecto {
+    margin-bottom: 25px;
+}
+
+.proyecto img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 2px solid #ff6f61;
+}
+
+/* Contacto */
+#contacto {
+    padding: 20px;
+    background-color: #46a9b6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header, #proyectos, #contacto, footer {
+        padding: 15px;
+    }
+
+    .proyecto img {
+        max-width: 100%;
+    }
+}
